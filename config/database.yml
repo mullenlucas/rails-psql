@@ -23,7 +23,9 @@ default: &default
 
 development:
   <<: *default
-  database: rails_psql_development
+  database: railis
+  username: postgres
+  password: holarails
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
